@@ -27,7 +27,7 @@ export const PROBLEMS_LIST = [
         icon: '/short_tire.png',
         desc: 'Using tires designed specifically for grass on the road will significantly reduce their lifespan.'
     },
-]
+];
 
 export const BLDC_LIST = [
     {
@@ -42,7 +42,55 @@ export const BLDC_LIST = [
         label: 'LITHIUM BATTERY',
         desc: 'Lithium batteries, in comparison to SLA batteries, offer higher energy density, longer lifespan, faster charging capabilities, and reduced weight, providing a more efficient and reliable power source for various applications.'
     },
-]
+];
+
+export const COMPARE_LIST= [
+    {
+        title: '',
+        desc_1: 'LEAD ACID',
+        desc_2: 'LITHIUM',
+    },
+    {
+        title: 'Price',
+        desc_1: '$',
+        desc_2: '$$$',
+    },
+    {
+        title: 'Long Term Cost',
+        desc_1: '$$$$',
+        desc_2: '$',
+    },
+    {
+        title: 'Runtimes',
+        desc_1: 'Standard',
+        desc_2: 'Longest',
+    },
+    {
+        title: 'Charge Cycles',
+        desc_1: '300',
+        desc_2: '3000+',
+    },
+    {
+        title: 'Charge Time',
+        desc_1: '8-16 Hours',
+        desc_2: '3-6 Hours',
+    },
+    {
+        title: 'Lifespan',
+        desc_1: '1-2 Years',
+        desc_2: '10+ Years',
+    },
+    {
+        title: 'Safety',
+        desc_1: 'Least safe',
+        desc_2: 'Safest',
+    },
+    {
+        title: 'Maintenance',
+        desc_1: 'Most Maintenance',
+        desc_2: 'No Maintenance',
+    },
+];
 
 export const MAKARA_SOLUTIONS = [
     {
@@ -89,7 +137,7 @@ export const MAKARA_SOLUTIONS = [
         icon: '/solutions/lithium.png',
         label: 'Lithium Battery Replacement'
     }
-]
+];
 
 export const PRICE_LIST = [
     {
@@ -116,7 +164,7 @@ export const PRICE_LIST = [
         option: 'Starts from',
         price: '19.000.000'
     }
-]
+];
 
 export const CLIENT_LIST_A = [
     {
@@ -131,7 +179,8 @@ export const CLIENT_LIST_A = [
     {
         icon: '/hotel/bvlgari.png',
     },
-]
+];
+
 export const CLIENT_LIST_B = [
     {
         icon: '/hotel/villa_air.jpg',
@@ -142,4 +191,41 @@ export const CLIENT_LIST_B = [
     {
         icon: '/hotel/vivara.png',
     },
-]
+];
+
+
+export const FOOTER_LINKS = [
+    {
+      title: 'Learn More',
+      links: [
+        'About Makara',
+        'Press Releases',
+        'Environment',
+        'Jobs',
+        'Privacy Policy',
+        'Contact Us',
+      ],
+    },
+    {
+      title: 'Our Community',
+      links: ['Golf xixixi', 'Hospitality xoxo', 'Golf haha'],
+    },
+];
+  
+export const FOOTER_CONTACT_INFO = {
+    title: 'Contact Us',
+    links: [
+        { label: 'Admin Officer', value: '123-456-7890' },
+        { label: 'Email Officer', value: 'admin@makara.co.id' },
+    ],
+};
+  
+export const SOCIALS = {
+    title: 'Social',
+    links: [
+        '/facebook.svg',
+        '/instagram.svg',
+        '/twitter.svg',
+        '/youtube.svg',
+    ],
+};
