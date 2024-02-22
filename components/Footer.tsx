@@ -9,7 +9,7 @@ function Footer() {
       <div className="padding-container max-container flex w-full flex-col gap-6">
         <div className="flex flex-col items-start justify-center gap-[5%] md:flex-row">
           <Link href="/" className="mb-10">
-            <Image src="/logoBiru.png" alt="logo" width={100} height={100} className='w-[100px] h-[100px]'/>
+            <Image src="/LogoBiru.png" alt="logo" width={100} height={100} className='w-[100px] h-[100px]'/>
           </Link>
 
           <div className='flex flex-wrap gap-4 sm:justify-between md:flex-1'>
