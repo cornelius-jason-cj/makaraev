@@ -31,6 +31,9 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern': "url('/foto/Commercial_Header4.jpg')",
+        'welcome-pattern': "url('/foto/golf_cart_service_alabama.jpg')",
+        'shape-pattern': "url('/shape.png')",
+        'contact-us-pattern': "url('/contact_us.png')",
         'bg-img-1': "url('/img-1.png')",
         'bg-img-2': "url('/img-2.png')",
         'feature-bg': "url('/feature-bg.png')",

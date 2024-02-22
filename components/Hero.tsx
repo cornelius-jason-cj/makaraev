@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from "@/components/Hero/Navbar";
-import HeroText from './Hero/Text';
+import HeroText from '@/components/Hero/Text';
 
 function Hero() {
   return (

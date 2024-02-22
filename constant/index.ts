@@ -29,7 +29,6 @@ export const PROBLEMS_LIST = [
     },
 ]
 
-
 export const BLDC_LIST = [
     {
         label: 'BLDC MOTOR',
@@ -42,5 +41,105 @@ export const BLDC_LIST = [
     {
         label: 'LITHIUM BATTERY',
         desc: 'Lithium batteries, in comparison to SLA batteries, offer higher energy density, longer lifespan, faster charging capabilities, and reduced weight, providing a more efficient and reliable power source for various applications.'
+    },
+]
+
+export const MAKARA_SOLUTIONS = [
+    {
+        icon: '/solutions/service.png',
+        label: 'Service Maintenance'
+    },
+    {
+        icon: '/solutions/rental.png',
+        label: 'Buggy Rental'
+    },
+    {
+        icon: '/solutions/bldc.png',
+        label: 'BLDC Motor Conversion'
+    },
+    {
+        icon: '/solutions/parts.png',
+        label: 'Spare Parts'
+    },
+    {
+        icon: '/solutions/tire_replacement.png',
+        label: 'Tier Replacement'
+    },
+    {
+        icon: '/solutions/roof.png',
+        label: 'Roof Replacement'
+    },
+    {
+        icon: '/solutions/seat.png',
+        label: 'Seat Cover'
+    },
+    {
+        icon: '/solutions/seat_ext.png',
+        label: 'Seat Extension'
+    },
+    {
+        icon: '/solutions/buy_sell.png',
+        label: 'Buy & Sel'
+    },
+    {
+        icon: '/solutions/custom.png',
+        label: 'Customize'
+    },
+    {
+        icon: '/solutions/lithium.png',
+        label: 'Lithium Battery Replacement'
+    }
+]
+
+export const PRICE_LIST = [
+    {
+        type: 'Basic',
+        desc: 'BLDC Motor, Programmable Controller and Lithium Battery',
+        option: 'Starts from',
+        price: '55.000.000'
+    },
+    {
+        type: 'Full Custom',
+        desc: 'BLDC Motor, Programmable Controller and Lithium Battery, Custom rims and Tire, New Paint Job',
+        option: 'Starts from',
+        price: '75.000.000'
+    },
+    {
+        type: 'Basic',
+        desc: 'BLDC Motor, Programmable Controller and Lithium Battery, Custom rims and Tire, New Paint Job, Used frames',
+        option: 'Starts from',
+        price: '105.000.000'
+    },
+    {
+        type: 'Lithium Battery (only)',
+        desc: '48 Volt 100 AH Battery, Smart BMS for monitoring, Quick Charging, Display',
+        option: 'Starts from',
+        price: '19.000.000'
+    }
+]
+
+export const CLIENT_LIST_A = [
+    {
+        icon: '/hotel/natadesa.png',
+    },
+    {
+        icon: '/hotel/renaissance.png',
+    },
+    {
+        icon: '/hotel/ayana.png',
+    },
+    {
+        icon: '/hotel/bvlgari.png',
+    },
+]
+export const CLIENT_LIST_B = [
+    {
+        icon: '/hotel/villa_air.jpg',
+    },
+    {
+        icon: '/hotel/seres.png',
+    },
+    {
+        icon: '/hotel/vivara.png',
     },
 ]
