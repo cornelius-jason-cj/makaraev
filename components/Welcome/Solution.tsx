@@ -10,7 +10,7 @@ function Solution() {
       <div className='bg-gray-10 w-full h-[220px] rounded-3xl'>
           <div className='grid grid-cols-6 gap-4'>
             {MAKARA_SOLUTIONS.map((solution) => (
-              <div>
+              <div key={solution.label}>
                 <Image src={solution.icon} alt={solution.label} width={100} height={100} className='w-[60px] h-[60px] mx-auto'/>
                 <h3 className='w-3/4 mx-auto text-xs text-blue-100 text-center'>{solution.label}</h3>
               </div>

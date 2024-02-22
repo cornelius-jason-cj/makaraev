@@ -9,6 +9,7 @@ function Client() {
        <div className='flex flex-row justify-evenly mb-10 w-full'>
         {CLIENT_LIST_A.map((client) => (
           <Image
+            key={client.icon}
             src={client.icon}
             alt={client.icon}
             width={100}
@@ -20,6 +21,7 @@ function Client() {
        <div className='flex flex-row justify-evenly w-full'>
         {CLIENT_LIST_B.map((client) => (
             <Image
+              key={client.icon}
               src={client.icon}
               alt={client.icon}
               width={100}

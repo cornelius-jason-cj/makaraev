@@ -8,7 +8,7 @@ function description() {
       <h4 className='text-sm text-gray-100 text-center'>In the midst of intense competition in the hospitality industry,</h4>
       <h4 className='text-sm text-gray-100 text-center'>we recognize the significance of delivering an exceptional experiecne to our guests.</h4>
       <h4 className='text-sm text-gray-100 text-center'>Therefore, we are pleased to introduce a cutting-edge solution designed</h4>
-      <h4 className='text-sm text-gray-100 text-center'>to enhance your resort's electric vehicle infrastructure.</h4>
+      <h4 className='text-sm text-gray-100 text-center'>to enhance your resort`s electric vehicle infrastructure.</h4>
     </div>
   )
 }
