@@ -22,7 +22,7 @@ body {
     @apply  border-white bg-white px-8 py-3 text-gray-90
   }
   .btn_blue  { 
-    @apply  border-blue-50 bg-blue-500 px-4 py-1 text-white
+    @apply  border-blue-50 bg-blue-100 text-white
   }
   .btn_green  { 
     @apply  border-green-50 bg-green-50 px-8 py-5 text-white

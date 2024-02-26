@@ -9,22 +9,22 @@ export const NAV_LINKS = [
 export const PROBLEMS_LIST = [
     {
         label: 'Limited Performance',
-        icon: '/limited_performance.png',
+        icon: '/problems/gauge.png',
         desc: 'Older golf carts are fitted with traditional motors that lack the efficiency and power of modern BLDC motors. Consequently, this result in slower acceleration, a lower top speed and diminished overall performance.'
     },
     {
         label: 'Short Battery Life',
-        icon: '/short_battery.png',
+        icon: '/problems/battery.png',
         desc: 'Conventional lead-acid batteries, commonly employed in older golf carts, exhibit limited capacity and shorter lifespans. Consequently, this leads to a restricted driving range and necessitates frequent battery replacements, resulting in downtime and additional expenses.'
     },
     {
         label: 'Inefficient Energy Consumption',
-        icon: '/inefficient.png',
+        icon: '/problems/inefficient.png',
         desc: 'Traditional motors and batteries exhibit lower energy efficiency, leading to increased energy consumption and rising operating costs over time.'
     },
     {
         label: 'Short Tire Life',
-        icon: '/short_tire.png',
+        icon: '/problems/ban.png',
         desc: 'Using tires designed specifically for grass on the road will significantly reduce their lifespan.'
     },
 ];
@@ -110,7 +110,7 @@ export const MAKARA_SOLUTIONS = [
         label: 'Spare Parts'
     },
     {
-        icon: '/solutions/tire_replacement.png',
+        icon: '/solutions/tire.png',
         label: 'Tier Replacement'
     },
     {
@@ -118,19 +118,19 @@ export const MAKARA_SOLUTIONS = [
         label: 'Roof Replacement'
     },
     {
-        icon: '/solutions/seat.png',
+        icon: '/solutions/seatcover.png',
         label: 'Seat Cover'
     },
     {
-        icon: '/solutions/seat_ext.png',
+        icon: '/solutions/seatext.png',
         label: 'Seat Extension'
     },
     {
-        icon: '/solutions/buy_sell.png',
+        icon: '/solutions/buysell.png',
         label: 'Buy & Sel'
     },
     {
-        icon: '/solutions/custom.png',
+        icon: '/solutions/customize.png',
         label: 'Customize'
     },
     {
