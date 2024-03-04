@@ -1,9 +1,9 @@
 export const NAV_LINKS = [
-    { href:  '/', key: 'home', label: 'Home'},
-    { href:  '/', key: 'list_of_services', label: 'List of services'},
-    { href:  '/', key: 'clients', label: 'Clients'},
-    { href:  '/', key: 'location', label: 'Location'},
-    { href:  '/', key: 'contact_us', label: 'Contact us'},
+    { href:  '#home', key: 'home', label: 'Home'},
+    { href:  '#list_of_services', key: 'list_of_services', label: 'List of services'},
+    { href:  '#clients', key: 'clients', label: 'Clients'},
+    { href:  '#contact_us', key: 'location', label: 'Location'},
+    { href:  '#contact_us', key: 'contact_us', label: 'Contact us'},
 ];
 
 export const PROBLEMS_LIST = [
@@ -122,7 +122,7 @@ export const MAKARA_SOLUTIONS = [
         label: 'Seat Cover'
     },
     {
-        icon: '/solutions/seatext.png',
+        icon: '/solutions/seatext2.png',
         label: 'Seat Extension'
     },
     {
@@ -159,7 +159,7 @@ export const PRICE_LIST = [
         price: '105.000.000'
     },
     {
-        type: 'Lithium Battery (only)',
+        type: 'Lithium Battery',
         desc: '48 Volt 100 AH Battery, Smart BMS for monitoring, Quick Charging, Display',
         option: 'Starts from',
         price: '19.000.000'
@@ -217,6 +217,15 @@ export const FOOTER_CONTACT_INFO = {
     links: [
         { label: 'Admin Officer', value: '123-456-7890' },
         { label: 'Email Officer', value: 'admin@makara.co.id' },
+    ],
+};
+
+  
+export const FOOTER_ADDRESS_INFO = {
+    title: 'Address',
+    links: [
+        { label: 'Office', value: 'Unit 1D, Jimbaran Hub. Jl. Karang Mas, Jimbaran' },
+        { label: 'Workshop', value: 'Jl. Pulau Ayu No. 1, Denpasar' },
     ],
 };
   

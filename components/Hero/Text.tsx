@@ -1,9 +1,13 @@
 import React from 'react'
 import Button from '../Button'
 
-function HeroText() {
+type HeroText = {
+  show: boolean;
+}
+
+function HeroText({show}:HeroText) {
   return (
-    <div className='flex flex-row-reverse h-full'>
+    <div className={`${show ? 'hidden' : 'flex flex-row-reverse h-full'}`}>
       <div className='flex flex-col w-1/2 h-full'>
         <h1 className='text-xs md:text-4xl text-white font-normal mb-1 md:mb-4'>HOW TO</h1>
         <h1 className='text-xs md:text-4xl text-white font-normal mb-1 md:mb-4'>CUSTOMIZE YOUR</h1>
