@@ -41,7 +41,7 @@ export const PROBLEMS_LIST = [
         width: '80',
         height: '50',
         sWidth: '50',
-        sHeight: '50',
+        sHeight: '60',
     },
 ];
 
