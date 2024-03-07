@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/Footer";
-
+import Button from "@/components/Button";
 import { Montserrat } from 'next/font/google'
 
 const montserrat = Montserrat({
@@ -25,6 +25,15 @@ export default function RootLayout({
         <main className="relative overflow-hidden">
           {children}
         </main>
+        <div className='fixed bottom-2 right-2'>
+          <Button
+            type={'button'}
+            title={''}
+            icon="/WhatsApp_icon.png"
+            // variant={'btn_blue'}
+            size={'lg'}
+          />
+        </div>
         <Footer />
       </body>
     </html>

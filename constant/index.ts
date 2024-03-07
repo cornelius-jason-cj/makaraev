@@ -10,22 +10,38 @@ export const PROBLEMS_LIST = [
     {
         label: 'Limited Performance',
         icon: '/problems/gauge.png',
-        desc: 'Older golf carts are fitted with traditional motors that lack the efficiency and power of modern BLDC motors. Consequently, this result in slower acceleration, a lower top speed and diminished overall performance.'
+        desc: 'Older golf carts are fitted with traditional motors that lack the efficiency and power of modern BLDC motors. Consequently, this result in slower acceleration, a lower top speed and diminished overall performance.',
+        width: '100',
+        height: '50',
+        sWidth: '80',
+        sHeight: '40',
     },
     {
         label: 'Short Battery Life',
         icon: '/problems/battery.png',
-        desc: 'Conventional lead-acid batteries, commonly employed in older golf carts, exhibit limited capacity and shorter lifespans. Consequently, this leads to a restricted driving range and necessitates frequent battery replacements, resulting in downtime and additional expenses.'
+        desc: 'Conventional lead-acid batteries, commonly employed in older golf carts, exhibit limited capacity and shorter lifespans. Consequently, this leads to a restricted driving range and necessitates frequent battery replacements, resulting in downtime and additional expenses.',
+        width: '50',
+        height: '50',
+        sWidth: '40',
+        sHeight: '50',
     },
     {
         label: 'Inefficient Energy Consumption',
         icon: '/problems/inefficient.png',
-        desc: 'Traditional motors and batteries exhibit lower energy efficiency, leading to increased energy consumption and rising operating costs over time.'
+        desc: 'Traditional motors and batteries exhibit lower energy efficiency, leading to increased energy consumption and rising operating costs over time.',
+        width: '80',
+        height: '50',
+        sWidth: '50',
+        sHeight: '50',
     },
     {
         label: 'Short Tire Life',
         icon: '/problems/ban.png',
-        desc: 'Using tires designed specifically for grass on the road will significantly reduce their lifespan.'
+        desc: 'Using tires designed specifically for grass on the road will significantly reduce their lifespan.',
+        width: '80',
+        height: '50',
+        sWidth: '50',
+        sHeight: '50',
     },
 ];
 
@@ -111,7 +127,7 @@ export const MAKARA_SOLUTIONS = [
     },
     {
         icon: '/solutions/tire.png',
-        label: 'Tier Replacement'
+        label: 'Tire Replacement'
     },
     {
         icon: '/solutions/roof.png',

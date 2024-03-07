@@ -10,7 +10,7 @@ function Pricelist() {
 
       <div className='grid grid-cols-2 gap-4'>
         <div>
-          <Image src={'/foto/price_list.jpg'} alt="price_list" width={400} height={400} className='h-[800px] w-4/5 mx-auto'/>
+          <Image src={'/price_list.jpg'} alt="price_list" width={400} height={400} className='h-[800px] w-4/5 mx-auto'/>
         </div>
 
         <div className='flex flex-col justify-between'>
@@ -60,38 +60,36 @@ function Pricelist() {
 
     <section className='md:hidden flex flex-col justify-center items-center mx-auto max-w-[1440px] h-auto'>
 
-      <div className='grid grid-cols-2 gap-4'>
-        <div className=''>
-          <Image src={'/foto/price_list.jpg'} alt="price_list" width={400} height={400} className='h-[520px] mx-auto'/>
-        </div>
-
-        <div className='flex flex-col justify-between'>
-          <div>
-            <h2 className='text-sm text-blue-900 font-bold'>PRICELIST</h2>
-          </div>
-
-          {PRICE_LIST.map((list, index) => (
-            <div className='flex flex-col my-2' key={`${list.type}-${index}`}>
-              <h3 className='text-xs font-bold text-blue-900'>{list.type}</h3>
-              <h3 className='text-[10px] font-normal text-gray-50'>{list.desc}</h3>
-              <h3 className='text-[10px] font-semibold text-gray-50'>{list.option}</h3>
-              <h3 className='text-xs font-bold text-blue-900'>{list.price}</h3>
+      <div className='bg-price-list-pattern bg-cover bg-center h-[640px] w-full'>
+        <div className='h-[640px] backdrop-brightness-[.85]'>
+          <div className='flex flex-col items-center'>
+            <div className='mt-6'>
+              <h2 className='text-sm text-blue-900 font-bold'>PRICELIST</h2>
             </div>
-          ))}
 
-          <div className='mb-2'>
-            <h3 className='text-xs font-bold text-gray-20'>Have you considered any other services?</h3>
-            <h4  className='text-[10px] font-semibold text-gray-20'>We are here to accomodate your specific needs and requirements.</h4>
-          </div>
+            {PRICE_LIST.map((list, index) => (
+              <div className='flex flex-col my-2 bg-white rounded-2xl px-4 py-2 items-center w-2/3' key={`${list.type}-${index}`}>
+                <h3 className='text-sm font-bold text-blue-900'>{list.type}</h3>
+                <h3 className='text-[10px] font-normal text-gray-50 text-center'>{list.desc}</h3>
+                <h3 className='text-[10px] font-semibold text-gray-50'>{list.option}</h3>
+                <h3 className='text-xs font-bold text-blue-900'>{list.price}</h3>
+              </div>
+            ))}
 
-          <div>
-            <Button
-              type={'button'}
-              title={'WhatsApp Us'}
-              icon="/WhatsApp_icon.png"
-              variant={'btn_blue'}
-              full={false}
-            />
+            <div className='mt-4 mb-2 w-3/4'>
+              <h3 className='text-xs text-center font-bold text-white'>Have you considered any other services?</h3>
+              <h4  className='text-xs text-center font-semibold text-white'>We are here to accomodate your specific needs and requirements.</h4>
+            </div>
+
+            <div>
+              <Button
+                type={'button'}
+                title={'WhatsApp Us'}
+                icon="/WhatsApp_icon.png"
+                variant={'btn_blue'}
+                full={false}
+              />
+            </div>
           </div>
         </div>
       </div>

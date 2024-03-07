@@ -5,11 +5,13 @@ import { PROBLEMS_LIST } from '@/constant'
 function problem() {
   return (
     <div className='mx-2 mb-10'>
-      <h2 className="text-sm md:text-4xl text-blue-100 font-bold mb-4 text-center">MOST BUGGY COMMON PROBLEMS ON A RESORT</h2>
-      <div className="grid grid-cols-2 gap-8">
+      <h2 className="text-sm md:text-4xl text-blue-100 font-bold mb-4 md:mb-10 text-center">MOST BUGGY COMMON PROBLEMS ON A RESORT</h2>
+      <div className="grid grid-cols-1 mx-auto md:grid-cols-2 md:gap-8">
         {PROBLEMS_LIST.map((problem) => (
-          <div key={problem.label} className='max-w-lg'>
-            <Image src={problem.icon} alt={problem.label} width={80} height={80} className='w-[80px] h-[80px] mx-auto'/>
+          <div key={problem.label} className='mb-6 md:mb-0'>
+            <div className={`h-[50px] md:h-[50px] justify-center`}>
+              <Image src={problem.icon} alt={problem.label} width={80} height={80} className={`w-[${problem.sWidth}px] h-[${problem.sHeight}px] md:w-[${problem.width}px] md:h-[${problem.height}px] mx-auto`}/>
+            </div>
             <h2 className="text-sm md:text-lg text-blue-100 font-bold text-center my-2">{problem.label}</h2>
             <h4 className="text-[10px] md:text-base text-gray-100 text-center my-2">{problem.desc}</h4>
           </div>

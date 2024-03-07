@@ -9,7 +9,7 @@ function Address() {
         alt="logo"
         width={200}
         height={200}
-        className='w-[120px] h-[30px] mx-auto md:mx-0 md:w-[200px] md:h-[60px]'
+        className='w-[100px] h-[25px] mx-auto md:mx-0 md:w-[200px] md:h-[60px]'
       />
       <div className='mt-4 md:mt-6 md:mb-2'>
         <h1 className='text-xs md:text-2xl font-bold text-white md:mb-1'>MAKARA BUGGY</h1>
