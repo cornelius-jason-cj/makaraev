@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 import { NAV_LINKS } from "@/constant"
 
@@ -12,8 +11,8 @@ const Navbar = ({onPress, show}:Navbar) => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30">
       <Link href="/">
-          <Image
-              src="/LogoPutih.png"
+          <img
+              src="/header/LogoPutih.png"
               alt="logo"
               width={200}
               height={140}
@@ -32,8 +31,8 @@ const Navbar = ({onPress, show}:Navbar) => {
           ))}
       </ul>
 
-      <Image
-        src="menu.svg"
+      <img
+        src="/header/menu.svg"
         alt="menu"
         width={16}
         height={16}

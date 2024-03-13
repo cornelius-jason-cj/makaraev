@@ -10,7 +10,7 @@ function problem() {
         {PROBLEMS_LIST.map((problem, index) => (
           <div key={problem.label} className='mb-4 md:mb-0'>
             <div className={`h-[60px] md:h-[100px] justify-center`}>
-              <Image src={problem.icon} alt={problem.label} width={120} height={120} className={`w-[${problem.sWidth}px] h-[${problem.sHeight}px] md:w-[${problem.width}px] md:h-[${problem.height}px] mx-auto`}/>
+              <img src={problem.icon} alt={problem.label} width={120} height={120} className={`w-[${problem.sWidth}px] h-[${problem.sHeight}px] md:w-[${problem.width}px] md:h-[${problem.height}px] mx-auto`}/>
             </div>
             <h2 className="text-sm md:text-lg text-blue-100 font-bold text-center my-2">{problem.label}</h2>
             <h4 className="text-[10px] md:text-base text-gray-100 text-center my-2">{problem.desc}</h4>

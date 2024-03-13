@@ -25,11 +25,11 @@ export default function RootLayout({
         <main className="relative overflow-hidden">
           {children}
         </main>
-        <div className='fixed bottom-2 right-2'>
+        <div className='fixed bottom-6 right-4'>
           <Button
             type={'button'}
             title={''}
-            icon="/WhatsApp_icon.png"
+            icon="/header/WhatsApp_icon.png"
             // variant={'btn_blue'}
             size={'lg'}
           />

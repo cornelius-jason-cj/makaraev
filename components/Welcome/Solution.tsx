@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from "next/image";
 import { MAKARA_SOLUTIONS } from '@/constant'
 
 function Solution() {
@@ -12,7 +11,7 @@ function Solution() {
             {MAKARA_SOLUTIONS.map((solution) => (
               <div key={solution.label} className='my-auto'>
                 <div className='h-[40px] md:h-[100px] mx-auto'>
-                  <Image src={solution.icon} alt={solution.label} width={100} height={100} className='w-[40px] h-[40px] md:w-[100px] md:h-[100px] mx-auto'/>
+                  <img src={solution.icon} alt={solution.label} width={100} height={100} className='w-[40px] h-[40px] md:w-[100px] md:h-[100px] mx-auto'/>
                 </div>
                 
                 <div className='h-[50px]'>

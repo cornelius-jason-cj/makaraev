@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from "next/image";
 import { BLDC_LIST, COMPARE_LIST } from '@/constant'
 
 function bldc() {
@@ -10,7 +9,7 @@ function bldc() {
       
       <div className='hidden bg-gray-10 w-full h-[500px] rounded-3xl md:flex flex-row items-center justify-center'>
         <div className='basis-1/3'>
-          <Image src="/BLDC3in1.png" alt="BLDC" width={300} height={300} className='w-[80px] h-[80px] md:w-[300px] md:h-[300px] mx-auto'/>
+          <img src="/welcome/BLDC3in1.png" alt="BLDC" width={300} height={300} className='w-[80px] h-[80px] md:w-[300px] md:h-[300px] mx-auto'/>
         </div>
 
         <div className='basis-2/3'>
@@ -27,7 +26,7 @@ function bldc() {
 
       <div className='bg-gray-10 w-full h-[500px] md:h-[600px] rounded-3xl flex flex-col md:hidden'>
         <div className=''>
-          <Image src="/BLDC3in1.png" alt="BLDC" width={300} height={300} className='w-[200px] h-[200px] md:w-[300px] md:h-[300px] mx-auto'/>
+          <img src="/BLDC3in1.png" alt="BLDC" width={300} height={300} className='w-[200px] h-[200px] md:w-[300px] md:h-[300px] mx-auto'/>
         </div>
 
         <div className='flex flex-col mx-4 h-full md:justify-evenly'>

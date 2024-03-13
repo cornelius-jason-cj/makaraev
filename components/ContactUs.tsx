@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Button from './Button'
 import Form from './Contact/Form'
 import Address from './Contact/Address'
@@ -12,8 +11,8 @@ function ContactUs() {
         <div className='flex flex-row items-center justify-center w-full h-full'>
           <div className='flex flex-col items-center justify-center'>
             <div className='h-[40px] md:h-[50px] mb-2'>
-              <Image
-                src={'/logo_only_white.png'}
+              <img
+                src={'/contact/logo_only_white.png'}
                 alt="logo"
                 width={100}
                 height={100}
@@ -26,7 +25,7 @@ function ContactUs() {
             <Button
               type={'button'}
               title={'WhatsApp Us'}
-              icon="/WhatsApp_icon.png"
+              icon="/header/WhatsApp_icon.png"
               variant={'btn_blue'}
               />
           </div>

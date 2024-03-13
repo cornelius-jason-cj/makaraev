@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { FOOTER_CONTACT_INFO, FOOTER_ADDRESS_INFO } from '@/constant'
 

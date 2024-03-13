@@ -1,11 +1,10 @@
 import React from 'react'
-import Image from 'next/image'
 
 function Address() {
   return (
     <div className='flex flex-col mx-4 text-center md:text-left'>
-      <Image
-        src={'/logoWhite.png'}
+      <img
+        src={'/contact/logoWhite.png'}
         alt="logo"
         width={200}
         height={200}

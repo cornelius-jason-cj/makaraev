@@ -10,7 +10,7 @@ function Pricelist() {
 
       <div className='grid grid-cols-2 gap-4'>
         <div>
-          <Image src={'/price_list.jpg'} alt="price_list" width={400} height={400} className='h-[800px] w-4/5 mx-auto'/>
+          <img src={'/pricelist/price_list.jpg'} alt="price_list" width={400} height={400} className='h-[800px] w-4/5 mx-auto'/>
         </div>
 
         <div className='flex flex-col justify-between'>
@@ -48,7 +48,7 @@ function Pricelist() {
             <Button
               type={'button'}
               title={'WhatsApp Us'}
-              icon="/WhatsApp_icon.png"
+              icon="/header/WhatsApp_icon.png"
               variant={'btn_blue'}
               full={false}
             />

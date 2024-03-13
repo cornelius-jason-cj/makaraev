@@ -17,7 +17,7 @@ function HeroText({show}:HeroText) {
           <Button
             type={'button'}
             title={'WhatsApp Us'}
-            icon="/WhatsApp_icon.png"
+            icon="/header/WhatsApp_icon.png"
             variant={'btn_blue'}
           />
         </div>
