@@ -7,17 +7,19 @@ import Address from './Contact/Address'
 function ContactUs() {
   return (
     // <section className='flex flex-col justify-center items-center mx-auto max-w-[800px] mb-20'>
-    <section id='contact_us' className='bg-blue-900 w-full'>
+    <section id='contact_us' className='bg-blue-100 w-full'>
       <div className='flex flex-col mx-auto max-w-[800px] h-[280px] md:h-[380px]'>
         <div className='flex flex-row items-center justify-center w-full h-full'>
           <div className='flex flex-col items-center justify-center'>
-            <Image
-              src={'/logo.png'}
-              alt="logo"
-              width={100}
-              height={100}
-              className='w-[60px] h-[60px]'
+            <div className='h-[40px] md:h-[50px] mb-2'>
+              <Image
+                src={'/logo_only_white.png'}
+                alt="logo"
+                width={100}
+                height={100}
+                className='w-[50px] h-[30px] md:w-[70px] md:h-[40px]'
               />
+            </div>
             <h3 className='text-xs md:text-lg text-white'>Unlock the potential of your buggy with our</h3>
             <h3 className='text-xs md:text-lg text-white mb-4'>expert services</h3>
             <h3 className='text-[10px] text-white mb-10'> Connect with us today for driving experience like never before</h3>
@@ -25,7 +27,7 @@ function ContactUs() {
               type={'button'}
               title={'WhatsApp Us'}
               icon="/WhatsApp_icon.png"
-              variant={'btn_transparent'}
+              variant={'btn_blue'}
               />
           </div>
         </div>
