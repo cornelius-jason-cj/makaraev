@@ -26,7 +26,7 @@ function bldc() {
 
       <div className='bg-gray-10 w-full h-[500px] md:h-[600px] rounded-3xl flex flex-col md:hidden'>
         <div className=''>
-          <img src="/BLDC3in1.png" alt="BLDC" width={300} height={300} className='w-[200px] h-[200px] md:w-[300px] md:h-[300px] mx-auto'/>
+          <img src="/welcome/BLDC3in1.png" alt="BLDC" width={300} height={300} className='w-[200px] h-[200px] md:w-[300px] md:h-[300px] mx-auto'/>
         </div>
 
         <div className='flex flex-col mx-4 h-full md:justify-evenly'>

@@ -3,16 +3,18 @@ import React from 'react'
 function Address() {
   return (
     <div className='flex flex-col mx-4 text-center md:text-left'>
-      <img
-        src={'/contact/logoWhite.png'}
-        alt="logo"
-        width={200}
-        height={200}
-        className='w-[100px] h-[25px] mx-auto md:mx-0 md:w-[200px] md:h-[60px]'
-      />
+      <div className='w-full'>
+        <img
+          src={'/contact/logoWhite.png'}
+          alt="logo"
+          width={100}
+          height={50}
+          className='mx-auto w-1/4 md:mx-0 md:w-3/4'
+        />
+      </div>
       <div className='mt-4 md:mt-6 md:mb-2'>
         <h1 className='text-xs md:text-2xl font-bold text-white md:mb-1'>MAKARA BUGGY</h1>
-        <h3 className='text-[10px] md:text-base text-white'>PT. Makna Karya Aditya</h3>
+        <h3 className='text-[10px] md:text-base text-white'>PT. Makna Karya Raditya</h3>
       </div>
 
       <div className='hidden md:flex flex-col mt-6 mb-2'>

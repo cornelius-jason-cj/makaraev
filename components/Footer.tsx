@@ -75,7 +75,7 @@ function Footer() {
             </div>
           </div>
         </div> */}
-          <p className='text-[10px] md:text-xs text-blue-100 text-center'>Copyright © 2024 PT. Makna Karya Aditya. All Rights Reserved.</p>
+          <p className='text-[10px] md:text-xs text-blue-100 text-center'>Copyright © 2024 PT. Makna Karya Raditya. All Rights Reserved.</p>
         </div>
     </footer>
   )
